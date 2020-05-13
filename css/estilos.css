@@ -1,39 +1,40 @@
 body{
-    background-image: url('https://tnonline.uol.com.br/img_o/original/2016/10/20/tn_c74b3e74f1_91763034-91757511-a88d9e86-99d0-4cae-a06c-04c8e8bd4514-1.jpg'); 
-    background-size: auto 100vh;
-    font-family: Arial;
-    height: 100vh;
-  }
+  background-image: url('https://www.isabelaflores.com/media/catalog/product/a/l/alta-176-1.jpg'); 
+  background-size: auto 166vh;
+  font-family: Goudy Stout;
+  height: 100vh;
+}
+
+.menu{
+  background-color: white;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  color: white; 
+  text-align: center;
+}  
+
+.site-subtitle{
+  color: white;
+  font-style: italic;
+}
   
-  .menu{
-    background-color: white;
-  }
-  
-  .menu ul{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .menu li{
-    list-style: none;
-  }
-  
-  a{
-    color: red;
-    text-decoration: none;
-  }
-  
-  a:hover{
-    text-decoration: underline;
-  }
-  
-  .site-subtitle,
-  .site-title {
-    color: red; 
-    text-align: center;
-  }  
-  
-  .site-subtitle{
-    font-style: italic;
-  }
-    
